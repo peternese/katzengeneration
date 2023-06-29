@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 105vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    height:560px;
+    width:300px;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 30px;
+  }
+  .chars {
+    font-weight: bold;
+    border: none !important;
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    font-family: helvetica, Arial, sans-serif ;
+  }
+  .zwei {
+    text-align: center;
+    font-size: 22px;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    border: none;
+  }
+  .punkteup {
+    border:none;
+  }
+  .punkte {
+    display:flex;
+    justify-content: space-evenly;
+    border: none;
+    margin-top: -10px;
+    color: red;
+    font-weight: bold;
+  }
+  .traits {
+    display:flex;
+    justify-content: space-evenly;
+    border: none;
+    margin-top: -5px;
+  }
+  .breed {
+    display: none;
+    border: none;
+    margin-top: -10px;
+    text-align: center;
+  }
+  .wiki {
+    display: none;
+  }
+  .bild {
+    padding: 0px !important;
+    height: 260px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .bild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #gewicht {
+    color: green;
+  }
+  .button {
+    margin-top: auto;
+  }
