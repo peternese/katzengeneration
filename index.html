@@ -1,0 +1,36 @@
+<!-- Basic HTML components -->
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <title>The Cat Page</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+   <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="content bild"><img id="cat_image"/></div>
+      <div class="content zwei" id="breed_name">Rassennamme</div>
+      <div class="content wiki" id="wiki_link"></div>
+      <div class="content traits" >
+        <div>📖</div>
+        <div>😻</div>
+        <div>🔋</div>
+        <div style="font-weight:bold;margin-top:5px">Økg</div>
+      </div>
+      <div class="content punkteup" >
+        <div class="punkte">
+        <div id="intelligenz"></div>
+        <div id="affection"></div>
+        <div id="energie"></div>
+        <div id="gewicht"></div>
+        </div>
+      </div>
+      <div class="content chars">Charaktereigenschaften:</div>
+      <div class="content breed" id="breed_json">Inhalt 5</div>
+      <button onClick="fetchData()" class="button">Neue Katze!</button>
+    </div>
+  </body>
+</html>
